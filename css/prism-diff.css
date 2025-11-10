@@ -1,5 +1,7 @@
 /*
- * New diff- syntax
+ * File: css/prism-diff.css
+ * Purpose: Styling tweaks for diff-style code blocks used in examples (inserted/deleted lines).
+ * Student notes: Adjust only if you need custom highlighting for code examples. Prefer adding page-specific styles in `css/student.css`.
  */
 
 pre[class*="language-diff-"] {
