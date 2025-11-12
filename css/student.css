@@ -11,8 +11,6 @@ What this file provides:
 - A small set of CSS variables you can tweak safely.
 - A few namespaced utility components (banner, card, button) you can use in your content.
 - Examples showing how to apply color, spacing, and typography changes.
-
-If you need to make global changes for the whole site, talk to your instructor first — site layout and accessibility are preserved by keeping changes here small and namespaced.
 */
 
 :root {

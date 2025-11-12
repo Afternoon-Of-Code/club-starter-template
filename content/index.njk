@@ -6,6 +6,11 @@ const eleventyNavigation = {
 
 const numberOfLatestPostsToShow = 3;
 ---
+<!--
+File: content/index.njk
+Purpose: Homepage content — lists the most recent posts and includes the posts list partial.
+Student notes: Edit this file to change the homepage content or alter which posts are shown. For styling, use `css/student.css` and add `.student-*` classes in your content.
+-->
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
 <h1>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h1>
