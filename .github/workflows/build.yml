@@ -19,7 +19,7 @@ jobs:
       - name: Build with 11ty
         run: |
           npm install
-          npm run build
+          npx @11ty/eleventy --pathprefix=${{ github.event.repository.name }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3.0.1
         with:
